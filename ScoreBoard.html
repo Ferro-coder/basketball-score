@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="ScoreBoard.css" />
+    <title>W Basketball</title>
+  </head>
+  <body>
+    <div id="board">
+      <div id="scoresH">
+        <table>
+          <tr>
+            <td>HOME</td>
+          </tr>
+          <tr id="scorePoint">
+            <td id="score-home">0</td>
+          </tr>
+          <tr>
+            <td>
+              <button onclick="add1Home()" id="pointHome-btn">+1</button>
+            </td>
+            <td>
+              <button onclick="add2Home()" id="pointHome-btn">+2</button>
+            </td>
+            <td>
+              <button onclick="add3Home()" id="pointHome-btn">+3</button>
+            </td>
+            <td>
+              <button onclick="homeZero()" id="resetH-btn">RESET</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="scoresG">
+        <table>
+          <tr>
+            <td>GUEST</td>
+          </tr>
+          <tr id="scorePoint">
+            <td id="score-guest">0</td>
+          </tr>
+          <tr>
+            <td>
+              <button onclick="add1Guest()" id="pointGuest-btn">+1</button>
+            </td>
+            <td>
+              <button onclick="add2Guest()" id="pointGuest-btn">+2</button>
+            </td>
+            <td>
+              <button onclick="add3Guest()" id="pointGuest-btn">+3</button>
+            </td>
+            <td>
+              <button onclick="guestZero()" id="resetG-btn">RESET</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="ScoreBoard.js"></script>
+  </body>
+</html>

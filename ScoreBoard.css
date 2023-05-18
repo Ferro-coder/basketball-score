@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+}
+
+div{
+    text-align: center;
+    margin: 4rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+td{
+    max-width: 2rem;
+    color: rgb(236, 236, 236);
+}
+
+button{
+    font-weight: bold;
+}
+
+#board{
+    max-width: 30rem;
+    margin: 5rem 6rem;
+}
+
+
+#scoresH{
+    margin-right: 1.5rem;
+}
+
+#scoresG{
+    margin-left: 1.5rem;
+}
+
+#pointHome-btn{
+    border: none;
+    border-radius: 0.75rem;
+    padding: 0.10rem 0.30rem;
+    margin: 0.25rem;
+    max-width: 2rem;
+    color:rgb(226, 223, 21);
+    background-color: rgb(159, 17, 187);
+}
+
+#resetH-btn{
+    border: 0.10rem solid rgb(226, 223, 21);
+    border-radius: 0.75rem;
+    background-color: rgb(159, 17, 187);
+    color: rgb(236, 236, 236);
+}
+
+#pointGuest-btn{
+    border: none;
+    border-radius: 0.75rem;
+    padding: 0.10rem 0.30rem;
+    margin: 0.25rem;
+    max-width: 2rem;
+    color:rgb(255, 255, 255);
+    background-color: rgb(44, 161, 33);
+}
+
+#resetG-btn{
+    border: 0.10rem solid rgb(255, 255, 255);
+    border-radius: 0.75rem;
+    background-color: rgb(44, 161, 33);
+    color: rgb(236, 236, 236);
+}
+
+#scorePoint{
+    background-color: rgb(39, 39, 39);
+}
+
+@media screen and (max-width: 1200px){
+    
+    #scoreH{
+        width: 40%;
+    }
+    #scoreG{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #board{
+        margin:5rem 0;
+    }
+    #scoreH{
+        width: 40%;
+    }
+    #scoreG{
+        width: 40%;
+    }
+}
+
+@media screen and(max-width: 420px){
+    #board{
+        width: 30rem;
+    }
+}
